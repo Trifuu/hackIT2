@@ -88,7 +88,7 @@ color:black !important;
 border: 0px solid #000000;
 }
 .card{
-    padding: 20px;
+    margin: 20px;
         color: black;
     background-color: #fff2e9;
     border-radius: 27px 27px 27px 27px;
@@ -185,15 +185,6 @@ div.panel.show {
     font-size: 90px;
     margin-top: -50px;
 }
-#buton_register a{
-    z-index: 10;
-    background-color: #37C4EC;
-    color:#4f4f4f;
-}
-#buton_register a:hover,#buton_register a:focus,#buton_register a:active {
-    background-color:#7a7979; 
-    color: #37C4EC;
-}
 .scris_about_numere{
     font-size: 25px;
     margin-top: -25px;
@@ -203,13 +194,7 @@ div.panel.show {
     height: 50px;
     font-size: 160px;
 }
-.style1 {
-    background: url(images/New/art.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 body{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4392f1+19,092d56+100,092d56+100,092d56+100 */
@@ -299,6 +284,10 @@ a:hover .svg-button {
   fill: #f4ccb0;
   cursor: pointer;
 }
+a:hover .home-button{
+    fill: #062e49;
+    cursor: pointer;
+}
 
 a:hover #register-text, .svg-button-text, .register-text { 
   cursor: pointer;
@@ -311,6 +300,9 @@ a:hover, a:active, a{
 @media only screen and (min-width: 900px) {
     .show-on-mobile{
         display: none;
+    }
+    .home-island{
+        width:30%; float:right;
     }
 }
 
@@ -337,6 +329,9 @@ a:hover, a:active, a{
         background: #4392f1 !important;
     }
 
+    .home-island{
+        width:100%; float:right;
+    }
   }
 
 
@@ -348,6 +343,7 @@ a:hover, a:active, a{
 .hovering:hover {
   transform: translate(0, -10px);
 }
+
 .fill-blue{
     transition: fill .3s ease-out;
 }
