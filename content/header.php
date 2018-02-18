@@ -13,9 +13,8 @@ defined("autorizare") or die("Nu aveti autorizare");
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="<?php echo _SITE_CSS . "img/logoheader.png" ?>" style="width:34px;height:34px;">
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style="color:#fff2e9">
                 <li class="nav-item <?php echo ($page == "home" && $view == "dashboard") ? "active" : "" ?>">
                     <a class="nav-link" href="<?php echo _SITE_BASE; ?>">Home <span class="sr-only">(current)</span></a>
                 </li>

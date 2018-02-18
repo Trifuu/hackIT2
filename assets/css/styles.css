@@ -60,17 +60,55 @@
 
 .timer{
     text-align: center;
-    font-size: 35px;
-    color: #B9E4EF;
-    font-family: got;
+    font-size: 70px;
+    color: #fff2e9;
 }
-.active { background:#018EBE; }
+.active { 
+background-color: #fff2e9;
+    border-radius: 7px 7px 7px 7px;
+-moz-border-radius: 7px 7px 7px 7px;
+-webkit-border-radius: 7px 7px 7px 7px;
+border: 0px solid #000000;
+
+}
+.active > .nav-link{ 
+color:black !important;
+}
+.nav-link{
+    color: #fff2e9 !important;
+}
 
 .div_login{
-    border-radius: 31px 31px 31px 31px;
-    -moz-border-radius: 31px 31px 31px 31px;
-    -webkit-border-radius: 31px 31px 31px 31px;
-    border: 18px solid #00b3e5;
+
+    color: black;
+    background-color: #fff2e9;
+    border-radius: 27px 27px 27px 27px;
+-moz-border-radius: 27px 27px 27px 27px;
+-webkit-border-radius: 27px 27px 27px 27px;
+border: 0px solid #000000;
+}
+.card{
+    padding: 20px;
+        color: black;
+    background-color: #fff2e9;
+    border-radius: 27px 27px 27px 27px;
+-moz-border-radius: 27px 27px 27px 27px;
+-webkit-border-radius: 27px 27px 27px 27px;
+border: 0px solid #000000;
+}
+.another-for-card-faq{
+        float:left;
+       height: 150px;
+}
+.card-faq{
+
+    padding: 5px;
+        color: black;
+    background-color: #fff2e9;
+    border-radius: 7px 7px 7px 7px;
+-moz-border-radius: 7px 7px 7px 7px;
+-webkit-border-radius: 7px 7px 7px 7px;
+border: 0px solid #000000;
 }
 .back_style{
     position: fixed;
@@ -79,20 +117,16 @@
     z-index: 99;
     border: none;
     background-color: #333333;
-    color: #37C4EC;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-    font-family: got;
 }
 .back_home:hover{
     background-color: #4f4f4f;
-    color: #27ae60;
 }
 /*expand pagina faq*/
 p.accordion {
-    background-color: #4f4f4f;
-    color: #37C4EC;
+    background-color: #00b4e5;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -105,7 +139,7 @@ p.accordion {
 }
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 p.accordion.active, p.accordion:hover {
-    background-color: #7a7979;
+    background-color: #4392f1;
 }
 /* Unicode character for "plus" sign (+) */
 p.accordion:after {
@@ -121,9 +155,9 @@ p.accordion.active:after {
 }
 /* Style the element that is used for the panel class */
 div.panel {
+    color:black;
     padding: 0 18px;
-    background-color: #7a7979;
-    color: #37C4EC;
+    background-color: #fff2e9;
     max-height: 0;
     overflow: hidden;
     transition: 0.4s ease-in-out;
@@ -143,25 +177,16 @@ div.panel.show {
 .scris_about{
     text-align: center;
     font-size: 30px;
-    color: #37C4EC;
     height: 150px;
     margin-top: 40px;
-    font-family: got;
-}
+ }
 .scris_about2{
     text-align: center;
     font-size: 90px;
-    color: #37C4EC;
-    font-family: got;
     margin-top: -50px;
-}
-@font-face{
-    font-family: got;
-    src: url(got.ttf);
 }
 #buton_register a{
     z-index: 10;
-    font-family: got;
     background-color: #37C4EC;
     color:#4f4f4f;
 }
@@ -169,45 +194,185 @@ div.panel.show {
     background-color:#7a7979; 
     color: #37C4EC;
 }
-
-/* latin-ext */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Raleway'), local('Raleway-Regular'), url(font1.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Raleway'), local('Raleway-Regular'), url(font2.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-.powered_by_style{
-    font-size: 26px;
-    color:#37C4EC;
-    margin-top: 40px;
-    font-family: Raleway;
-}
 .scris_about_numere{
     font-size: 25px;
-    margin-top: -45px;
+    margin-top: -25px;
     margin-bottom: 45px;
 }
 .numere_about{
-    height: 20px;
+    height: 50px;
+    font-size: 160px;
 }
 .style1 {
-    background: url(images/bg.jpg) no-repeat center center fixed;
+    background: url(images/New/art.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.numere_home{
-    font-size: 45px;
+
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4392f1+19,092d56+100,092d56+100,092d56+100 */
+background: #4392f1; /* Old browsers */
+background: -moz-linear-gradient(top, #4392f1 19%, #092d56 100%, #092d56 100%, #092d56 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4392f1 19%,#092d56 100%,#092d56 100%,#092d56 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4392f1 19%,#092d56 100%,#092d56 100%,#092d56 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4392f1', endColorstr='#092d56',GradientType=0 ); /* IE6-9 */
+
+font-family: Roboto-Light;
+color: #fff2e9;
+/*color: black;
+*/
+
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(Roboto-Regular.ttf);
+}
+
+/*scrollbar*/
+.scrollbar
+{
+    padding: 10px;
+    margin-left: 30px;
+    float: left;
+    height: 300px;
+    overflow-y: scroll;
+        color: black;
+    background-color: #fff2e9;
+    border-radius: 7px 7px 7px 7px;
+-moz-border-radius: 7px 7px 7px 7px;
+-webkit-border-radius: 7px 7px 7px 7px;
+border: 0px solid #000000;
+}
+
+
+#wrapper
+{
+
+    width: 100%;
+    text-align:left;
+}
+
+
+#style-6::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#style-6::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-6::-webkit-scrollbar-thumb
+{
+    background-color: #F90; 
+    background-image: -webkit-linear-gradient(45deg,
+                                              rgba(255, 255, 255, .2) 25%,
+                                              transparent 25%,
+                                              transparent 50%,
+                                              rgba(255, 255, 255, .2) 50%,
+                                              rgba(255, 255, 255, .2) 75%,
+                                              transparent 75%,
+                                              transparent)
+}
+
+
+
+svg:hover #register { 
+  fill: #b2121e;
+  cursor: pointer;
+}
+svg:hover .register { 
+  fill: #b2121e;
+  cursor: pointer;
+}
+a:hover .svg-button { 
+  fill: #f4ccb0;
+  cursor: pointer;
+}
+
+svg:hover #register-text, .svg-button-text { 
+  cursor: pointer;
+}
+
+a:hover, a:active, a{
+    text-decoration: none!important;
+}
+
+@media only screen and (min-width: 900px) {
+    .show-on-mobile{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .hide-on-mobile {
+        display: none;
+    }
+    .move-on-mobile{
+        padding-top: 10em;
+        float: right;
+    }
+    .move-on-mobile #componente_mijloc{
+        padding: 10em;
+        float: right;
+    }
+
+    .show-on-mobile{
+        display: block;
+    }
+
+    body{
+        background: #4392f1 !important;
+    }
+
+  }
+
+
+
+.hovering {
+  transition: transform .3s ease-out;
+  display: inline-block;
+}
+.hovering:hover {
+  transform: translate(0, -10px);
+}
+.fill-blue{
+    transition: fill .3s ease-out;
+}
+.fill-blue:hover {
+    fill: #4392f1;
+}
+.fill-red{
+    transition: fill .3s ease-out;
+}
+.fill-red:hover {
+    fill: #db1f27;
+}
+.fill-display{
+    transition: fill .3s ease-in-out;
+}
+.fill-display:hover {
+    /*fill: url(#img-display) !important;
+    fill: url("display.png") !important;*/
+    fill: #8bcbef;
+}
+
+.fill-orange{
+    transition: fill .3s ease-out;
+}
+.fill-orange:hover{
+    fill: #ffb699;
+    cursor: pointer;
 }

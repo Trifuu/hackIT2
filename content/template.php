@@ -12,7 +12,6 @@ defined("autorizare") or die("Nu aveti autorizare");
 <html lang="ro-RO">
     <head>
         <title><?php echo $title_app_title . $title_app_separator . $title_app_name; ?></title>
-        <link rel="shortcut icon" href="<?php echo _SITE_CSS."img/logoheader.png" ?>" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

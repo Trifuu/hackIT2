@@ -23,9 +23,22 @@ require_once _ROOT_INCLUDES . "functions_detalii.php";
 $title_app_name = "HACK IT ALL";
 $title_app_separator = " - ";
 $title_app_title = "Default Title";
-$site = "local";
-if ($site == "local") {
-    define("_SITE_BASE", "http://localhost/hack2/");
+$site = "asd";
+if ($site == "karina") {
+    define("_SITE_BASE", "http://localhost/HackITall/hackathon_lsac/");
+
+    define("_SITE_CSS", _SITE_BASE . "assets/css/");
+    define("_SITE_JS", _SITE_BASE . "assets/js/");
+
+    # -- MySQL DB intialisation
+    try {
+        $db = new PDO("mysql:host=localhost;dbname=hack", "root", "ijustgo07");
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch (PDOException $ex) {
+        die("A aparut o eroare (verifica user/parola/host pentru MySQL):<br>" . $ex->getMessage());
+    }
+} else if ($site == "trifu") {
+    define("_SITE_BASE", "http://localhost/hackathon_lsac/");
 
     define("_SITE_CSS", _SITE_BASE . "assets/css/");
     define("_SITE_JS", _SITE_BASE . "assets/js/");
@@ -33,19 +46,6 @@ if ($site == "local") {
     # -- MySQL DB intialisation
     try {
         $db = new PDO("mysql:host=localhost;dbname=hack", "root", "nan587");
-        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    } catch (PDOException $ex) {
-        die("A aparut o eroare (verifica user/parola/host pentru MySQL):<br>" . $ex->getMessage());
-    }
-} else if ($site="test") {
-    define("_SITE_BASE", "http://testhack.lsacbucuresti.ro/");
-
-    define("_SITE_CSS", _SITE_BASE . "assets/css/");
-    define("_SITE_JS", _SITE_BASE . "assets/js/");
-
-    # -- MySQL DB intialisation
-    try {
-        $db = new PDO("mysql:host=localhost;dbname=lsacbucu_test", "lsacbucu_mihaita", "zaq12wsx?");
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (PDOException $ex) {
         die("A aparut o eroare (verifica user/parola/host pentru MySQL):<br>" . $ex->getMessage());
