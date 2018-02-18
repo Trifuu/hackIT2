@@ -690,7 +690,7 @@ defined("autorizare") or die("Nu aveti autorizare");
             <a href="<?php getUrl("home","partners",true); ?>">
             <path class="svg-button" id="path3576" fill="#FFF3E9" d="M749.9,185.6l49.9,28.8c3.3,1.9,3.3,5,0,6.9l-16.6,9.9c-3.3,1.9-8.7,1.9-12,0l-49.9-28.8
                 c-3.3-1.9-3.3-5,0-6.9l16.6-9.9C741.2,183.7,746.6,183.7,749.9,185.6"/></a>
-            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 733.4869 195.8799)" font-family="'Roboto-Light'" font-size="13.3102">p</text>
+            <g class="svg-button-text"><text transform="matrix(0.7038 0.4064 -0.8127 0.4692 733.4869 195.8799)" font-family="'Roboto-Light'" font-size="13.3102">p</text>
             <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 738.7062 198.893)" font-family="'Roboto-Light'" font-size="13.3102">o</text>
             <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 743.9229 201.9049)" font-family="'Roboto-Light'" font-size="13.3102">w</text>
             <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 751.0159 206)" font-family="'Roboto-Light'" font-size="13.3102">e</text>
@@ -700,6 +700,7 @@ defined("autorizare") or die("Nu aveti autorizare");
             <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 768.9924 216.3786)" font-family="'Roboto-Light'" font-size="13.3102"> </text>
             <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 771.2702 217.6937)" font-family="'Roboto-Light'" font-size="13.3102">b</text>
             <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 776.4328 220.6745)" font-family="'Roboto-Light'" font-size="13.3102">y</text>
+            <g>
         </g>
     </g>
 </g>
@@ -797,7 +798,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-<div class="hide-on-mobile" style="margin-top:-1000px;margin-left:80%;width:20%">
+<div class="hide-on-mobile" style="margin-top:-40%;margin-left:80%;width:20%">
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
@@ -898,7 +899,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-on-mobile" style="margin-top: 900px;"></div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-on-mobile" style="margin-top: 500px;"></div>
     
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
         <div class="scris_about2">

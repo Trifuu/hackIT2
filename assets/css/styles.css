@@ -287,11 +287,11 @@ border: 0px solid #000000;
 
 
 
-svg:hover #register { 
+a:hover #register { 
   fill: #b2121e;
   cursor: pointer;
 }
-svg:hover .register { 
+a:hover .register { 
   fill: #b2121e;
   cursor: pointer;
 }
@@ -300,7 +300,7 @@ a:hover .svg-button {
   cursor: pointer;
 }
 
-svg:hover #register-text, .svg-button-text { 
+a:hover #register-text, .svg-button-text, .register-text { 
   cursor: pointer;
 }
 
@@ -363,9 +363,7 @@ a:hover, a:active, a{
 .fill-display{
     transition: fill .3s ease-in-out;
 }
-.fill-display:hover {
-    /*fill: url(#img-display) !important;
-    fill: url("display.png") !important;*/
+.fill-display:hover, .fill-display:active {
     fill: #8bcbef;
 }
 

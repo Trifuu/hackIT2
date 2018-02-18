@@ -9,19 +9,20 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 <div class="row" style="text-align: center;">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ">
-        <!--<img src="<?php echo _SITE_CSS . "img/logo_hack.png"; ?>" style="max-height: 300px;max-width: 300px;" id="logo_lsac">-->
        <svg version="1.1" baseProfile="basic" id="Layer_1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 425.1 665.7"
      xml:space="preserve">
 <g>
+<a href="<?php getUrl("home","partners",true); ?>">
     <g>
         <path fill="#99C9EC" d="M98.6,565c0,0-27.5,4.9-35.6-17.8l0.2-265.5c0,0,1-17.1,11.6-30.1s240,88.2,240,88.2L193.6,497.5L98.6,565
             z"/>
         <path fill="#99C9EC" d="M120.9,218c-37.5,22.5-50.1,24.4-53.1,52.4l13.2,6.7l175.8,38.6L360,110.8c0,0-14.2-17.3-36.2-10.3"/>
-        <path fill="#FFF2E9" d="M325.1,434.3L105.3,561.2c-20.4,11.8-36.9,4.8-36.9-15.6V291.1c0-20.4,16.5-46.4,36.9-58.2L325.1,106
+        <path class="svg-button" fill="#FFF2E9" d="M325.1,434.3L105.3,561.2c-20.4,11.8-36.9,4.8-36.9-15.6V291.1c0-20.4,16.5-46.4,36.9-58.2L325.1,106
             c20.4-11.8,36.9-4.8,36.9,15.6v254.5C362,396.5,345.4,422.5,325.1,434.3z"/>
     </g>
-    <g id="logo_x5F_hack_1_">
+    
+    <g id="logo_x5F_hack_1_" class="svg-button-text">
         <g>
             <path fill="none" stroke="#172E55" stroke-width="2" stroke-miterlimit="10" d="M102.1,506.8l-18.9,10.9c-1.9,1.1-3.5,3.8-3.5,6
                 v18.8c0,2.2,1.6,3.1,3.5,2l18.9-10.9c1.9-1.1,3.5-3.8,3.5-6v-18.8C105.5,506.6,104,505.7,102.1,506.8z"/>
@@ -46,7 +47,7 @@ defined("autorizare") or die("Nu aveti autorizare");
             <path fill="none" stroke="#172E55" stroke-width="2" stroke-miterlimit="10" d="M160.5,473.1L141.6,484c-1.9,1.1-3.5,3.8-3.5,6
                 v18.8c0,2.2,1.6,3.1,3.5,2l18.9-10.9c1.9-1.1,3.5-3.8,3.5-6v-18.8C164,472.9,162.4,472,160.5,473.1z"/>
         </g>
-        <g>
+        <g  class="svg-button-text">
             
                 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="164.0369" y1="950.1011" x2="164.0369" y2="1243.038" gradientTransform="matrix(1 -0.5774 0 1 0 -647.9827)">
                 <stop  offset="0" style="stop-color:#0080C6"/>
@@ -165,7 +166,7 @@ defined("autorizare") or die("Nu aveti autorizare");
                 c0-1,0.6-2.1,1.5-2.6c0.8-0.5,1.5-0.1,1.5,0.9s-0.6,2.1-1.5,2.6C174.4,255.6,173.7,255.2,173.7,254.3z M177.8,251.9
                 c0-1,0.6-2.1,1.5-2.6c0.8-0.5,1.5-0.1,1.5,0.9s-0.6,2.1-1.5,2.6C178.5,253.2,177.8,252.8,177.8,251.9z"/>
         </g>
-        <g>
+        <g  class="svg-button-text">
             <text transform="matrix(0.86 -0.4965 0 1 85.1317 539.1196)" fill="#172E55" font-family="'Roboto-Light'" font-size="24.1305">H</text>
             <text transform="matrix(0.86 -0.4965 0 1 271.4432 430.8529)" fill="#172E55" font-family="'Roboto-Light'" font-size="24.1305">A</text>
             <text transform="matrix(0.86 -0.4965 0 1 173.4292 488.1412)" fill="#172E55" font-family="'Roboto-Light'" font-size="24.1305">K</text>
@@ -177,6 +178,7 @@ defined("autorizare") or die("Nu aveti autorizare");
             <text transform="matrix(0.86 -0.4965 0 1 302.6092 413.5595)" fill="#172E55" font-family="'Roboto-Light'" font-size="24.1305">L</text>
         </g>
     </g>
+    </a>
 </g>
 </svg>
     </div>
@@ -208,9 +210,11 @@ defined("autorizare") or die("Nu aveti autorizare");
             <svg version="1.1" baseProfile="basic" id="Layer_1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 193.6"
      xml:space="preserve"><g>
+      <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
 <rect id = "register" x="34.4" y="34.7" fill="#DB1F27" width="387.3" height="124.2"/>
 <text id = "register-text" transform="matrix(0.866 0 0 1 73.2569 119.8373)" fill="#F5E7E9" font-size="78.7799">REGISTER</text>
 </rect>
+</a>
 </svg>
         </div>
     </div>
@@ -230,16 +234,18 @@ defined("autorizare") or die("Nu aveti autorizare");
      xml:space="preserve">
 <g>
     <g>
+    <a href="<?php getUrl("home","partners",true); ?>">
         <g>
             <path fill="#0B4B7F" d="M166.6,217.2c0.1,0,0.2,0,0.3,0c7.6,0.1,13.8-6.1,13-13.7l0.4-29.3c0.7-0.6,0.7-1.2,0.6-1.7
                 c-0.3-2.6-1.6-9.3-5.9-14.6c-2.6-3.2-31.1-1.2-60.2,1.8c-14.8,1.5-16.8,22.3-2.5,26.6l5.2,1.6c2.4,0.7,4.6,2.1,6.2,4l33.2,20.8
                 C159.4,215.4,162.9,217.1,166.6,217.2z"/>
             <path fill="#99C9EC" d="M178.1,163.6l-6.6,3.8L111.2,189l-28.1-76.5c0,0,4.7-6.6,15.9-2.2c11.3,4.4,11.2,4.4,68.2,39.4
                 C167.2,149.7,175.3,155.8,178.1,163.6z"/>
-            <path fill="#FFF2E9" d="M96.7,180.8l61.1,34c10.6,6.1,19.2,2.5,19.2-8.1l0.5-29.8c0-10.6-8.6-24.2-19.2-30.3l-61.1-34
+            <path fill="#FFF2E9" class="svg-button" d="M96.7,180.8l61.1,34c10.6,6.1,19.2,2.5,19.2-8.1l0.5-29.8c0-10.6-8.6-24.2-19.2-30.3l-61.1-34
                 c-10.6-6.1-16.6-2.5-16.6,8.1l-0.5,29.8C80.1,161.1,84.4,171.3,96.7,180.8z"/>
         </g>
-        <text transform="matrix(0.7448 0.43 0 1 85.9545 144.9814)" fill="#231F20" font-family="'Roboto-Light'" font-size="23.2797">powered by</text>
+        <text class="svg-button-text" transform="matrix(0.7448 0.43 0 1 85.9545 144.9814)" fill="#231F20" font-family="'Roboto-Light'" font-size="23.2797">powered by</text>
+        </a>
     </g>
     <g>
         <g>
@@ -248,8 +254,10 @@ defined("autorizare") or die("Nu aveti autorizare");
                 l213.9,132.8C342.4,496.4,346.1,498.2,350.1,498.3z"/>
             <path fill="#99C9EC" d="M365.1,374.8l-7.1,4l-244.9-21.3l-28-147.8c0,0,4.8-7.3,16.8-2.6c12,4.7,251.4,152.7,251.4,152.7
                 S362,366.4,365.1,374.8z"/>
-            <path fill="#FFF2E9" d="M97.6,348.7l243.8,147c11.4,6.6,20.6,2.7,20.6-8.7l2.4-98.1c0-11.4-9.2-25.9-20.6-32.4L100,209.5
+                <a href="https://www.avira.com/" target="_blank">
+            <path class = "svg-button" fill="#FFF2E9" d="M97.6,348.7l243.8,147c11.4,6.6,20.6,2.7,20.6-8.7l2.4-98.1c0-11.4-9.2-25.9-20.6-32.4L100,209.5
                 c-11.4-6.6-17.7-2.7-17.7,8.7l-2.4,98.1C79.9,327.7,84.5,338.6,97.6,348.7z"/>
+                </a>
         </g>
     </g>
     <path fill="#E21E25" d="M177.1,371.4c0,1.3-0.9,1.8-2,1.2l-78.1-45.1c-1.1-0.6-2-2.2-2-3.5v-90.9c0-1.3,0.9-1.8,2-1.2l78.1,45.1
@@ -276,9 +284,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 <div class="hide-on-mobile">
-<svg version="1.1" baseProfile="basic" id="Layer_1"
-     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 728.6 407.9"
-     xml:space="preserve">
+<svg>
 <g id="layer6_1_">
     <path id="path2567_1_" fill="#99C9EC" d="M200.8,8.9L200.8,8.9c-2.6,0-5.3,0.6-7.3,1.8c0,0,0,0,0,0l-5,2.9l-1.5,0.9l-40.5,23.4
         L134,45c-0.1,0.1-0.2,0.2-0.4,0.2l-2.7-1.4v5.3l0,0c0,1.6,1,3.1,3,4.3l9,5.2l28.2,16.3l-43.3,25l-8.7,5c-0.7,0.4-1.2,0.8-1.7,1.3
@@ -1014,10 +1020,12 @@ defined("autorizare") or die("Nu aveti autorizare");
         
             <path id="path3446_1_" fill="none" stroke="#172E55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,6" d="
             M319.6,319.3l44.5-25.7l-0.8-37l37.8,18.3"/>
+            <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
         <g id="g2735_1_" transform="matrix(0.8660254,0.5,0,1.1547005,-267.34777,-601.58986)">
             <polygon id="rect2064_1_" class="register" fill="#DB1F27" points="969.4,121.4 1058.9,121.4 1058.9,149.7 969.4,149.7          "/>
-            <text transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
+            <text class="register-text" transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
         </g>
+        </a>
         <g id="g2149_2_" transform="translate(-59.53803,-17.91208)">
             <path id="rect2142_2_" fill="#37C4EB" d="M214,305c7.2,0,13,5.8,13,13v19c0,7.2-5.8,13-13,13c-7.2,0-13-5.8-13-13v-19
                 C201,310.8,206.8,305,214,305z"/>
