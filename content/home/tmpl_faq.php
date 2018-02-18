@@ -43,10 +43,10 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 <div style="margin-top:120px;">
-<div style="margin-top:120px;">
 <svg version="1.1" baseProfile="basic" id="Layer_1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 728.6 407.9"
      xml:space="preserve">
+
 <g id="layer6_1_">
     <path id="path2567_1_" fill="#99C9EC" d="M200.8,8.9L200.8,8.9c-2.6,0-5.3,0.6-7.3,1.8c0,0,0,0,0,0l-5,2.9l-1.5,0.9l-40.5,23.4
         L134,45c-0.1,0.1-0.2,0.2-0.4,0.2l-2.7-1.4v5.3l0,0c0,1.6,1,3.1,3,4.3l9,5.2l28.2,16.3l-43.3,25l-8.7,5c-0.7,0.4-1.2,0.8-1.7,1.3
@@ -782,10 +782,12 @@ defined("autorizare") or die("Nu aveti autorizare");
         
             <path id="path3446_1_" fill="none" stroke="#172E55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,6" d="
             M319.6,319.3l44.5-25.7l-0.8-37l37.8,18.3"/>
+    <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
         <g id="g2735_1_" transform="matrix(0.8660254,0.5,0,1.1547005,-267.34777,-601.58986)">
             <polygon id="rect2064_1_" class="register" fill="#DB1F27" points="969.4,121.4 1058.9,121.4 1058.9,149.7 969.4,149.7          "/>
-            <text transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
+            <text class="register-text" transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
         </g>
+    </a>
         <g id="g2149_2_" transform="translate(-59.53803,-17.91208)">
             <path id="rect2142_2_" fill="#37C4EB" d="M214,305c7.2,0,13,5.8,13,13v19c0,7.2-5.8,13-13,13c-7.2,0-13-5.8-13-13v-19
                 C201,310.8,206.8,305,214,305z"/>
@@ -795,5 +797,4 @@ defined("autorizare") or die("Nu aveti autorizare");
     </g>
 </g>
 </svg>
-</div>
 </div>
