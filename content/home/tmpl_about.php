@@ -902,7 +902,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-on-mobile" style="margin-top: 500px;"></div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-on-mobile" style="margin-top: 550px;"></div>
     
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 view_numar1">
         <div class="scris_about2">
