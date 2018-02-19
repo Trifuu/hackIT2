@@ -30,8 +30,7 @@ defined("autorizare") or die("Nu aveti autorizare");
         <link rel="stylesheet" href="<?php echo _SITE_CSS ?>styles.css">
 
     </head>
-    <body style="<?php echo ($page == "home" || $page == "login")? 'background-color:#333333' : "";
-        echo ($page == "formular" || $page=="detalii") ? "background-image: url('" . _SITE_CSS . "img/form.png')" : "";?>" >
+    <body>
         <?php if($page=="home" || $page=="formular")
         {
         ?>

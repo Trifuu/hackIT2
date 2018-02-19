@@ -302,16 +302,18 @@ defined("autorizare") or die("Nu aveti autorizare");
 </g>
 <g>
     <g>
+    <a href="<?php getUrl("home","partners",true); ?>">
         <g>
             <path fill="#0B4B7F" d="M182.2,659.9c0.1,0,0.2,0,0.3,0c6.3,0.1,11.5-5.1,10.8-11.4l0.3-24.4c0.6-0.5,0.6-1,0.5-1.4
                 c-0.3-2.2-1.3-7.8-4.9-12.2c-2.2-2.7-26-1-50.2,1.5c-12.3,1.3-14,18.6-2.1,22.2l4.3,1.3c2,0.6,3.8,1.8,5.2,3.3l27.7,17.4
                 C176.2,658.4,179.1,659.8,182.2,659.9z"/>
             <path fill="#99C9EC" d="M191.8,615.2l-5.5,3.2l-50.3,18l-23.4-63.8c0,0,3.9-5.5,13.3-1.8c9.4,3.7,9.3,3.7,56.9,32.9
                 C182.7,603.6,189.4,608.7,191.8,615.2z"/>
-            <path fill="#FFF2E9" d="M123.9,629.5l51,28.4c8.8,5.1,16,2.1,16-6.8l0.4-24.9c0-8.8-7.2-20.2-16-25.3l-51-28.4
+            <path fill="#FFF2E9" class="svg-button" d="M123.9,629.5l51,28.4c8.8,5.1,16,2.1,16-6.8l0.4-24.9c0-8.8-7.2-20.2-16-25.3l-51-28.4
                 c-8.8-5.1-13.9-2.1-13.9,6.8l-0.4,24.9C110,613.1,113.6,621.6,123.9,629.5z"/>
         </g>
-        <text transform="matrix(0.7448 0.43 0 1 114.8911 599.6324)" fill="#231F20" font-family="'Roboto-Light'" font-size="19.4259">powered by</text>
+        <text class="svg-button-text" transform="matrix(0.7448 0.43 0 1 114.8911 599.6324)" fill="#231F20" font-family="'Roboto-Light'" font-size="19.4259">powered by</text>
+        </a>
     </g>
     <g>
         <g>
@@ -691,17 +693,17 @@ defined("autorizare") or die("Nu aveti autorizare");
             <path class="svg-button" id="path3576" fill="#FFF3E9" d="M749.9,185.6l49.9,28.8c3.3,1.9,3.3,5,0,6.9l-16.6,9.9c-3.3,1.9-8.7,1.9-12,0l-49.9-28.8
                 c-3.3-1.9-3.3-5,0-6.9l16.6-9.9C741.2,183.7,746.6,183.7,749.9,185.6"/></a>
             <g class="svg-button-text"><text transform="matrix(0.7038 0.4064 -0.8127 0.4692 733.4869 195.8799)" font-family="'Roboto-Light'" font-size="13.3102">p</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 738.7062 198.893)" font-family="'Roboto-Light'" font-size="13.3102">o</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 743.9229 201.9049)" font-family="'Roboto-Light'" font-size="13.3102">w</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 751.0159 206)" font-family="'Roboto-Light'" font-size="13.3102">e</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 755.8396 208.7851)" font-family="'Roboto-Light'" font-size="13.3102">r</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 758.9501 210.5808)" font-family="'Roboto-Light'" font-size="13.3102">e</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 763.7746 213.3664)" font-family="'Roboto-Light'" font-size="13.3102">d</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 768.9924 216.3786)" font-family="'Roboto-Light'" font-size="13.3102"> </text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 771.2702 217.6937)" font-family="'Roboto-Light'" font-size="13.3102">b</text>
-                <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 776.4328 220.6745)" font-family="'Roboto-Light'" font-size="13.3102">y</text>
-            </g>
-        <g>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 738.7062 198.893)" font-family="'Roboto-Light'" font-size="13.3102">o</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 743.9229 201.9049)" font-family="'Roboto-Light'" font-size="13.3102">w</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 751.0159 206)" font-family="'Roboto-Light'" font-size="13.3102">e</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 755.8396 208.7851)" font-family="'Roboto-Light'" font-size="13.3102">r</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 758.9501 210.5808)" font-family="'Roboto-Light'" font-size="13.3102">e</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 763.7746 213.3664)" font-family="'Roboto-Light'" font-size="13.3102">d</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 768.9924 216.3786)" font-family="'Roboto-Light'" font-size="13.3102"> </text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 771.2702 217.6937)" font-family="'Roboto-Light'" font-size="13.3102">b</text>
+            <text transform="matrix(0.7038 0.4064 -0.8127 0.4692 776.4328 220.6745)" font-family="'Roboto-Light'" font-size="13.3102">y</text>
+            <g>
+        </g>
     </g>
 </g>
 </svg>
@@ -798,7 +800,8 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-<div class="hide-on-mobile" style="margin-top:-40%;margin-left:80%;width:20%">
+
+<div class="hide-on-mobile" style="margin-top:-50%;margin-left:80%;width:20%">
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">

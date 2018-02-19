@@ -13,13 +13,21 @@ defined("autorizare") or die("Nu aveti autorizare");
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 425.1 665.7"
      xml:space="preserve">
 <g>
+<<<<<<< HEAD
     <a href="<?php getUrl("home","partners",true); ?>">
+=======
+<a href="<?php getUrl("home","about",true); ?>">
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
     <g>
         <path fill="#99C9EC" d="M98.6,565c0,0-27.5,4.9-35.6-17.8l0.2-265.5c0,0,1-17.1,11.6-30.1s240,88.2,240,88.2L193.6,497.5L98.6,565
             z"/>
         <path fill="#99C9EC" d="M120.9,218c-37.5,22.5-50.1,24.4-53.1,52.4l13.2,6.7l175.8,38.6L360,110.8c0,0-14.2-17.3-36.2-10.3"/>
         <path class="svg-button" fill="#FFF2E9" d="M325.1,434.3L105.3,561.2c-20.4,11.8-36.9,4.8-36.9-15.6V291.1c0-20.4,16.5-46.4,36.9-58.2L325.1,106
+<<<<<<< HEAD
         c20.4-11.8,36.9-4.8,36.9,15.6v254.5C362,396.5,345.4,422.5,325.1,434.3z"/>
+=======
+            c20.4-11.8,36.9-4.8,36.9,15.6v254.5C362,396.5,345.4,422.5,325.1,434.3z"/>
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
     </g>
     
     <g id="logo_x5F_hack_1_" class="svg-button-text">
@@ -210,7 +218,11 @@ defined("autorizare") or die("Nu aveti autorizare");
             <svg version="1.1" baseProfile="basic" id="Layer_1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 193.6"
      xml:space="preserve"><g>
+<<<<<<< HEAD
      <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
+=======
+      <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
 <rect id = "register" x="34.4" y="34.7" fill="#DB1F27" width="387.3" height="124.2"/>
 <text id = "register-text" transform="matrix(0.866 0 0 1 73.2569 119.8373)" fill="#F5E7E9" font-size="78.7799">REGISTER</text>
 </rect>
@@ -234,7 +246,11 @@ defined("autorizare") or die("Nu aveti autorizare");
      xml:space="preserve">
 <g>
     <g>
+<<<<<<< HEAD
         <a href="<?php getUrl("home","partners",true); ?>">
+=======
+    <a href="<?php getUrl("home","partners",true); ?>">
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
         <g>
             <path fill="#0B4B7F" d="M166.6,217.2c0.1,0,0.2,0,0.3,0c7.6,0.1,13.8-6.1,13-13.7l0.4-29.3c0.7-0.6,0.7-1.2,0.6-1.7
                 c-0.3-2.6-1.6-9.3-5.9-14.6c-2.6-3.2-31.1-1.2-60.2,1.8c-14.8,1.5-16.8,22.3-2.5,26.6l5.2,1.6c2.4,0.7,4.6,2.1,6.2,4l33.2,20.8
@@ -245,7 +261,11 @@ defined("autorizare") or die("Nu aveti autorizare");
                 c-10.6-6.1-16.6-2.5-16.6,8.1l-0.5,29.8C80.1,161.1,84.4,171.3,96.7,180.8z"/>
         </g>
         <text class="svg-button-text" transform="matrix(0.7448 0.43 0 1 85.9545 144.9814)" fill="#231F20" font-family="'Roboto-Light'" font-size="23.2797">powered by</text>
+<<<<<<< HEAD
        </a>
+=======
+        </a>
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
     </g>
     <g>
         <g>
@@ -254,7 +274,11 @@ defined("autorizare") or die("Nu aveti autorizare");
                 l213.9,132.8C342.4,496.4,346.1,498.2,350.1,498.3z"/>
             <path fill="#99C9EC" d="M365.1,374.8l-7.1,4l-244.9-21.3l-28-147.8c0,0,4.8-7.3,16.8-2.6c12,4.7,251.4,152.7,251.4,152.7
                 S362,366.4,365.1,374.8z"/>
+<<<<<<< HEAD
             <a href="https://www.avira.com/" target="_blank">
+=======
+                <a href="https://www.avira.com/" target="_blank">
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
             <path class = "svg-button" fill="#FFF2E9" d="M97.6,348.7l243.8,147c11.4,6.6,20.6,2.7,20.6-8.7l2.4-98.1c0-11.4-9.2-25.9-20.6-32.4L100,209.5
                 c-11.4-6.6-17.7-2.7-17.7,8.7l-2.4,98.1C79.9,327.7,84.5,338.6,97.6,348.7z"/>
                 </a>
@@ -1020,11 +1044,19 @@ defined("autorizare") or die("Nu aveti autorizare");
         
             <path id="path3446_1_" fill="none" stroke="#172E55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,6" d="
             M319.6,319.3l44.5-25.7l-0.8-37l37.8,18.3"/>
+<<<<<<< HEAD
         <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
             <g id="g2735_1_" transform="matrix(0.8660254,0.5,0,1.1547005,-267.34777,-601.58986)">
                 <polygon id="rect2064_1_" class="register" fill="#DB1F27" points="969.4,121.4 1058.9,121.4 1058.9,149.7 969.4,149.7          "/>
                 <text class="register-text" transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
             </g>
+=======
+            <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
+        <g id="g2735_1_" transform="matrix(0.8660254,0.5,0,1.1547005,-267.34777,-601.58986)">
+            <polygon id="rect2064_1_" class="register" fill="#DB1F27" points="969.4,121.4 1058.9,121.4 1058.9,149.7 969.4,149.7          "/>
+            <text class="register-text" transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
+        </g>
+>>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
         </a>
         <g id="g2149_2_" transform="translate(-59.53803,-17.91208)">
             <path id="rect2142_2_" fill="#37C4EB" d="M214,305c7.2,0,13,5.8,13,13v19c0,7.2-5.8,13-13,13c-7.2,0-13-5.8-13-13v-19

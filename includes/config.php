@@ -24,8 +24,9 @@ $title_app_name = "HACK IT ALL";
 $title_app_separator = " - ";
 $title_app_title = "Default Title";
 $site = "trifu";
+
 if ($site == "karina") {
-    define("_SITE_BASE", "http://localhost/HackITall/hackathon_lsac/");
+    define("_SITE_BASE", "http://localhost/hackIT2/");
 
     define("_SITE_CSS", _SITE_BASE . "assets/css/");
     define("_SITE_JS", _SITE_BASE . "assets/js/");

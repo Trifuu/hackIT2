@@ -95,7 +95,7 @@ defined("autorizare") or die("Nu aveti autorizare");
                                 echo "<a class='btn btn-sm btn-primary modifica-user'><i class='fa fa-pencil' aria-hidden=\"true\"></i> Modifica </a>  ";
                                 echo "<a data-id='" . htmlspecialchars($row["id"], ENT_QUOTES) . "' data-email='" . htmlspecialchars($row["nume"], ENT_QUOTES) . "' class='btn btn-sm btn-danger del-user'><i class='fa fa-times' aria-hidden=\"true\"></i> Sterge </a>";
                             } elseif (get_user_type($row["categorie"], "users") > $user_type || $row["id"] == $user["id"]) {
-                                echo "<a class='btn btn-sm btn-primary modifica-user' style='margin-right:78px;'><i class='fa fa-pencil' aria-hidden=\"true\"></i> Modifica </a>  ";
+                                echo "<a class='btn btn-sm btn-primary modifica-user' style='margin-right:78px;'><i class='fa fa-pencil' aria-hidden=\"true\"></i> Modifică </a>  ";
                             }
                             echo "</td>";
                         }
