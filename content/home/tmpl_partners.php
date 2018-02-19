@@ -793,20 +793,12 @@ Staying on top is harder than getting there. This is why UiPath is committed to 
         
             <path id="path3446_1_" fill="none" stroke="#172E55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,6" d="
             M319.6,319.3l44.5-25.7l-0.8-37l37.8,18.3"/>
-<<<<<<< HEAD
-    <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
-=======
             <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
->>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
         <g id="g2735_1_" transform="matrix(0.8660254,0.5,0,1.1547005,-267.34777,-601.58986)">
             <polygon id="rect2064_1_" class="register" fill="#DB1F27" points="969.4,121.4 1058.9,121.4 1058.9,149.7 969.4,149.7          "/>
             <text class="register-text" transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
         </g>
-<<<<<<< HEAD
-    </a>
-=======
         </a>
->>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
         <g id="g2149_2_" transform="translate(-59.53803,-17.91208)">
             <path id="rect2142_2_" fill="#37C4EB" d="M214,305c7.2,0,13,5.8,13,13v19c0,7.2-5.8,13-13,13c-7.2,0-13-5.8-13-13v-19
                 C201,310.8,206.8,305,214,305z"/>

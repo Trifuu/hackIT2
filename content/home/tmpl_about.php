@@ -800,7 +800,6 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-
 <div class="hide-on-mobile" style="margin-top:-50%;margin-left:80%;width:20%">
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

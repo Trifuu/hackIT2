@@ -23,8 +23,7 @@ require_once _ROOT_INCLUDES . "functions_detalii.php";
 $title_app_name = "HACK IT ALL";
 $title_app_separator = " - ";
 $title_app_title = "Default Title";
-$site = "trifu";
-
+$site = "karina";
 if ($site == "karina") {
     define("_SITE_BASE", "http://localhost/hackIT2/");
 
