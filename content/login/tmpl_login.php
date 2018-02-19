@@ -13,7 +13,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 </style>
 <div>
 
-    <div style="position: absolute;left:50%;margin-left: -150px;color:#37C4EC;margin-top:70px;margin-bottom:100px;" class="div_login">
+    <div style="position: absolute;left:50%;margin-left: -125px;margin-top:70px;margin-bottom:100px;" class="div_login">
         <form class="form-inline" action="<?php getUrl("login", "login-action", true); ?>" method="post" id="login_form" style="width:230px;padding: 10px;">
 
             <?php if (isset($_SESSION["error"])) { ?>
@@ -57,7 +57,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-<div cclass="hide-on-mobile"  style="float:left;margin-left:3%;width:35%">
+<div class="hide-on-mobile"  style="float:left;margin-left:3%;width:35%">
        <svg version="1.1" baseProfile="basic" id="Layer_1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 425.1 665.7"
      xml:space="preserve">
@@ -421,7 +421,7 @@ defined("autorizare") or die("Nu aveti autorizare");
     </div>
     
 
-<div class="show-on-mobile" style="width: 150%; padding-top: 50%">
+<div class="show-on-mobile" style="width: 150%; padding-top: 60%">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
 <g id="Layer_1_1_">

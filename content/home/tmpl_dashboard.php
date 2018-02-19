@@ -13,7 +13,7 @@ defined("autorizare") or die("Nu aveti autorizare");
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 425.1 665.7"
      xml:space="preserve">
 <g>
-<a href="<?php getUrl("home","partners",true); ?>">
+<a href="<?php getUrl("home","about",true); ?>">
     <g>
         <path fill="#99C9EC" d="M98.6,565c0,0-27.5,4.9-35.6-17.8l0.2-265.5c0,0,1-17.1,11.6-30.1s240,88.2,240,88.2L193.6,497.5L98.6,565
             z"/>

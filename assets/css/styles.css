@@ -88,7 +88,7 @@ color:black !important;
 border: 0px solid #000000;
 }
 .card{
-    margin: 20px;
+    padding: 20px;
         color: black;
     background-color: #fff2e9;
     border-radius: 27px 27px 27px 27px;
