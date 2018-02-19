@@ -89,6 +89,7 @@ border: 0px solid #000000;
 }
 .card{
     padding: 20px;
+    margin: 20px;
         color: black;
     background-color: #fff2e9;
     border-radius: 27px 27px 27px 27px;
