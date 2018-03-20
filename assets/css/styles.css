@@ -60,9 +60,14 @@
 
 .timer{
     text-align: center;
-    font-size: 70px;
     color: #fff2e9;
+    font-size: 70px;
 }
+@media (max-width: 380px) {
+    .timer{
+        font-size: 55px;
+    }
+ }
 .active { 
 background-color: #fff2e9;
     border-radius: 7px 7px 7px 7px;

@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 /*
  * Creata de Marius Trifu
  * Pentru intrebari trifumarius01@gmail.com  * 

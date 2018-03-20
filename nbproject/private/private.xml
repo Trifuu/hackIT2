@@ -3,14 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/html/hack2/content/home/tmpl_about.php</file>
-            <file>file:/var/www/html/hack2/content/home/view_about.php</file>
-            <file>file:/var/www/html/hack2/includes/functions.php</file>
-            <file>file:/var/www/html/hack2/content/home/tmpl_dashboard.php</file>
-            <file>file:/var/www/html/hack2/assets/js/app/detalii/dashboard.js</file>
-            <file>file:/var/www/html/hack2/content/detalii/tmpl_dashboard.php</file>
-            <file>file:/var/www/html/hack2/includes/functions_user.php</file>
-            <file>file:/var/www/html/hack2/content/home/tmpl_partners.php</file>
+            <file>file:/var/www/html/hackathon_lsac/content/detalii/tmpl_admin.php</file>
+            <file>file:/var/www/html/hackathon_lsac/content/detalii/tmpl_dashboard.php</file>
+            <file>file:/var/www/html/hackathon_lsac/includes/functions_participanti.php</file>
+            <file>file:/var/www/html/hackathon_lsac/assets/js/app/participanti/dashboard.js</file>
+            <file>file:/var/www/html/hackathon_lsac/assets/js/app/detalii/admin.js</file>
+            <file>file:/var/www/html/hackathon_lsac/assets/js/app/detalii/dashboard.js</file>
         </group>
     </open-files>
 </project-private>

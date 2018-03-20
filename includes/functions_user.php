@@ -70,6 +70,24 @@ function get_user($id) {
     }
     return $user;
 }
+
+function add_user($nume,$prenume,$parola,$telefon,$email,$categorie){
+    global $db;
+    try {
+        $stmt = $db->prepare("insert into user (nume,prenume,parola,email,tel,categorie)"
+                . " values (:nume,:prenume,:parola,:email,:tel,:categorie)");
+        $stmt->bindParam(":nume", $nume, PDO::PARAM_STR,64);
+        $stmt->bindParam(":prenume", $prenume, PDO::PARAM_STR,64);
+        $stmt->bindParam(":parola", $parola, PDO::PARAM_STR,64);
+        $stmt->bindParam(":tel", $telefon, PDO::PARAM_STR,15);
+        $stmt->bindParam(":email", $email, PDO::PARAM_STR,64);
+        $stmt->bindParam(":categorie", $categorie, PDO::PARAM_STR,20);
+        $stmt->execute();
+    } catch (Exception $ex) {
+        die($ex->getMessage());
+    }
+}
+
 function get_user_type($categorie,$page){
     if($categorie=="super admin"){
         return 0;

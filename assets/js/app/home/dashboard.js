@@ -5,16 +5,8 @@
 
 $(document).ready(function () {
     // Set the date we're counting down to
-    var countDownDate = new Date("Feb 19, 2018 10:00:00").getTime();
+    var countDownDate = new Date("Mar 27, 2018 23:55:00").getTime();
     
-    if (screen.width < 570) {
-        $("#componente_mijloc").css({"position": "absolute", "margin-top": "350px", "margin-left": "-15px", "z-index": "2"});
-        $("#logo_uipath div").css({"margin-top": "-50px"});
-        $("#timer").css({"margin-top": "0px"});
-    }
-    if (screen.width < 330) {
-        $("#logo_lsac").css({"width": (screen.width - 30) + "px", "height": (screen.width - 30) + "px"});
-    }
 
     // Update the count down every 1 second
     var x = setInterval(function () {

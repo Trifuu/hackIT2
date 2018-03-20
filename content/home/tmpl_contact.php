@@ -13,11 +13,11 @@ defined("autorizare") or die("Nu aveti autorizare");
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div id="casuta_contact_persoana" class="card" style="display:inline-block;height: 155px;padding: 15px">
-            <img src="<?php echo _SITE_CSS . "img/Macovei_Alexandra.jpg"; ?>" style="width: 100px;height: 100px;float: left;">
+            <img src="<?php echo _SITE_CSS . "img/Iliescu_Andrei.jpg"; ?>" style="width: 100px;height: 100px;float: left;">
             <div style="text-align:left;margin-left: 0px;float: right">
-                <p style="margin-bottom:0px;margin-top:15px;font-size: 25px;">Macovei Alexandra</p>
+                <p style="margin-bottom:0px;margin-top:15px;font-size: 25px;">Iliescu Mihai</p>
                 <p style="margin-bottom:0px;margin-top:10px;font-size: 15px;">Project Manager</p>
-                <p id="email_about" style="margin-bottom:0px;margin-top:5px;font-size: 12px;">alexandra.macovei@lsacbucuresti.ro</p>
+                <p id="email_about" style="margin-bottom:0px;margin-top:5px;font-size: 12px;">mihai.iliescu@lsacbucuresti.ro</p>
                 <p style="margin-bottom:0px;margin-top:0px;font-size: 12px;">+40 734 109 445</p>
             </div>
         </div>
@@ -26,7 +26,7 @@ defined("autorizare") or die("Nu aveti autorizare");
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" style="margin: 0 auto">
         <div class="card" style="width: 100%">
             <div id="email_contact" style="text-align: left;"><i class="fa fa-envelope-o fa-2x"></i> <span style="font-size: 30px;"> contact @ lsacbucuresti.ro</span></div>
-            <!--<form action="#" id="contact_form">-->
+            <form action="javascript:void(0);" id="contact_form">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="width: 100%;">
                     <label for="nume" class="mdl-textfield__label" style="color:#37C4EC;"><?php echo $limba == "en" ? "Name" : "Nume"; ?><span class="obligatoriu">*</span></label>
                     <input style="color:black" type="text" name="nume" id="nume" class="mdl-textfield__input" >
@@ -43,7 +43,7 @@ defined("autorizare") or die("Nu aveti autorizare");
                     <div class="mdl-tooltip" data-mdl-for="comentariu" style="font-size:14px;"><?php echo $limba == "en" ? "Enter your questions" : "Scrieti intrebarile"; ?></div>
                 </div>
                 <button id="submit_contact" style="background: #00b4e5" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"><?php echo $limba == "en" ? "Send" : "Trimite"; ?></button>
-<!--            </form>-->
+            </form>
         </div>
     </div>
 

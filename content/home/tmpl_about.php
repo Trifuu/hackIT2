@@ -901,7 +901,7 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-on-mobile" style="margin-top: 550px;"></div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-on-mobile" style="margin-top: 850px;"></div>
     
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 view_numar1">
         <div class="scris_about2">
@@ -937,60 +937,78 @@ defined("autorizare") or die("Nu aveti autorizare");
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:100px;"></div>
     <div class="col-lg-1"></div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-top:30px;">
         <img id="img1" src="<?php echo _SITE_CSS . "img/about_poza.jpg"; ?>" style="max-width: 440px;max-height: 230px;margin: auto;">
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align: left;margin: 30px;">
         <h2>
             <?php echo $limba == "en" ? "ABOUT HACKITALL" : "Despre HACKITALL"; ?>
         </h2>
-        <p style="margin-top: 50px; font-size: 20px">
+        <p style="margin-top: 10px; font-size: 20px">
             <?php
             if ($limba == "en") {
-                echo "Starting with this year, LSAC Bucharest will introduce two editions of HackITall,
-        one of the most attractive programming competition. The contest offers the 
-        chance for all technology and innovation enthusiasts to showcase their talents.
-        The third edition of HackITall comes with new challenges, providing each participant 
-        with 24 hours to find original and optimal solutions and come out with unique ideas within a certain specified theme. 
-        UiPath, our official sponsor, is ready to meet young enthusiasts and reward the best of them.
-        Register with your team until November 15th and demonstrate what you are capable of!";
+                echo "A new HackITall edition is just around the corner! 
+                    <a style='decoration:none;color:red;' href='".  getUrl("formular", "dashboard")."'>Register</a> 
+                    your team to the greatest programming competition in Bucharest and get 
+                    a chance to win the big prizes offered by Avira, our official sponsor! 
+                    For 24 hours, your programming skills will be put to the test while 
+                    solving real-life problems, which will be based on a chosen-on-the-spot 
+                    theme. We can promise the experience will highlight your creativity and 
+                    spirit of innovation, so we are expecting you to 
+                    <a style='decoration:none;color:red;' href='".  getUrl("formular", "dashboard")."'>join</a> the 
+                    contest until March 11th. Don’t hesitate and come show us what you’ve got!";
             } else {
-                echo "LSAC București oferă șansa tuturor pasionaților de domeniul tehnologiei și 
-        inovației să fie participanți la HackITall, introducând de anul acesta două ediții 
-        ale celei mai dorite competiții de programare. HackITall vine cu noi provocări, 
-        punând la dispoziție fiecărui participant 24 de ore de idei unice și o temă inedită, 
-        în care să găsească soluții originale și optime. Sponsorul oficial UiPath este 
-        pregătit să întâlnească tineri entuziaști și să-i premieze pe cei mai buni dintre 
-        ei. Înscrie-te până pe data de 15 noiembrie, alături de echipa ta și demonstreză 
-        tuturor de ce ești în stare! ";
+                echo "O nouă ediție HackITall bate la ușă! 
+                    <a style='decoration:none;color:red;' href='".  getUrl("formular", "dashboard")."'>Înregistrează-te</a> 
+                    împreună cu echipa ta la cea mai mare competiție de programare din 
+                    București și intră în cursa pentru marile premii oferite de Avira, 
+                    sponsorul nostru oficial! Timp de 24 de ore, cunoștințele tale de 
+                    programare vor fi testate prin rezolvarea unor probleme din viața 
+                    reală, bazate pe o temă aleasă chiar atunci. Această experiență 
+                    îți va evidenția calitățile, precum creativitatea și caracterul 
+                    inovator, dar și spiritul competitiv. Așadar, 
+                    <a style='decoration:none;color:red;' href='".  getUrl("formular", "dashboard")."'>înscrie-te</a> 
+                    cu echipa între 19 februarie și 11 martie și fii mai aproape cu un 
+                    pas de a face față competiției!";
             }
             ?>
         </p>
     </div>
     <div class="col-lg-1"></div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:100px;"></div>
-    <div class="col-lg-1"></div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <img id="img2" src="<?php echo _SITE_CSS . "img/editia_2017.jpg"; ?>" style="max-width: 440px;max-height: 230px;margin: auto;">
-    </div>
-    
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align: left;margin: 30px;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;margin: 60px;font-size: 35px;">
         <h2>
             <?php echo $limba == "en" ? "PREVIOUS EDITIONS" : "EDIȚIILE ANTERIOARE"; ?>
         </h2>
-        <p style="margin-top: 50px; font-size: 20px">
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-top:10px;">
+        <img id="img2" src="<?php echo _SITE_CSS . "img/editia_2017_nov.jpg"; ?>" style="max-width: 440px;max-height: 230px;margin: auto;">
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align: left;margin: 10px;">
+        <h2>
+            <?php echo $limba == "en" ? "III-rd edition" : "Editia a III-a"; ?>
+        </h2>
+        <p style="margin-top: 10px; font-size: 20px">
             <?php
             if ($limba == "en") {
-                echo "For the second hackathon edition, the number of teams enrolled 
-        increased to 55, while 20 teams were selected by the main sponsor, Avira, to 
-        participate. This time, the hackathon theme proposed was creating the best 
-        application using Amazon Polly.";
+                echo "The third HackITall edition, held in November 2017 by LSAC Bucuresti, "
+                . "welcomed 60 contestants divided into 20 teams. UiPath, the main sponsor, "
+                . "selected the teams out of the 56 enrolled and gave them an "
+                . "opportunity to express their talents while developing an application "
+                . "that would determine the best path, taking into account factors like "
+                . "pollution, time or weather and using Google API and Breezometer API.";
             } else {
-                echo "La cea de-a doua ediție de hackathon, numărul echipelor înscrise a 
-        crescut la 55, iar 20 de echipe au fost selecționate pentru participarea de 
-        către sponsorul principal, Avira. Și de această dată, tot el a fost cel care a 
-        propus și tema hackathonu-ului - crearea unei aplicații care să folosească Amazon 
-        Polly - și a ales câștigătorii.";
+                echo "Cea de-a treia ediție HackITall, organizată în noiembrie 2017, "
+                . "de către Liga Studenților de la Facultatea de Automatică și "
+                . "Calculatoare, a fost gazda a 60 de participanți împărțiți în 20 "
+                . "de echipe cu adevărat competitive. Reprezentanții din partea UiPath, "
+                . "sponsorul principal, au fost cei care au selectat echipele dintr-un "
+                . "total de 56 înscrise, acestea primind șansa de a-și exprima talentul "
+                . "și originalitatea, prin dezvoltarea unei aplicații care să determine "
+                . "cel mai bun drum. Pentru acesta s-au luat în considerare factori "
+                . "precum poluarea, timpul sau vremea, utilizând API-urile Google și "
+                . "Breezometer.";
             }
             ?>
         </p>
@@ -1000,31 +1018,66 @@ defined("autorizare") or die("Nu aveti autorizare");
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:100px;"></div>
     <div class="col-lg-1"></div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align: left;margin: 30px;">
-        <p style="margin-top: 50px; font-size: 20px">
+        <h2>
+            <?php echo $limba == "en" ? "II-nd edition" : "Editia a II-a"; ?>
+        </h2>
+        <p style="margin-top: 10px; font-size: 20px">
             <?php
             if ($limba == "en") {
-                echo "The first HackITall edition was a real success for the LSAC team. 
-        It has enjoyed a large number of registered teams: 30 in number, of which only 
-        10 have been selected for participation. The main sponsor was Avira, who also 
-        came up with the theme of the hackathon, with competitors creating a community-based 
-        application. So, for 24 hours, students tried to give everything they could to 
-        win the prize.";
+                echo "For the second hackathon edition, the number of teams enrolled increased"
+                . " to 55, while 20 teams were selected by the main sponsor, Avira, to "
+                . "participate. This time, the hackathon theme proposed was creating the best "
+                . "application using Amazon Polly.";
             } else {
-                echo "Prima ediție de HackITalll a fost un adevărat succes pentru echipa 
-        LSAC. Aceasta s-a bucurat de un număr mare de echipe înscrise: 30 la număr, dintre 
-        care doar 10 au fost selecționate pentru participare. Sponsorul principal a fost 
-        firma Avira, care a propus și tema hackathon-ului, concurenții având de creat o 
-        aplicație în folosul comunității. Așadar, timp de 24 de ore, studenții au încercat 
-        să dea tot ce au mai bun pentru a câștiga premiul I.";
+                echo "La cea de-a doua ediție de hackathon, numărul echipelor înscrise "
+                . "a crescut la 55, iar 20 de echipe au fost selecționate pentru "
+                . "participarea de către sponsorul principal, Avira. Și de această "
+                . "dată, tot el a fost cel care a propus și tema hackathonu-ului - "
+                . "crearea unei aplicații care să folosească Amazon Polly - și a ales "
+                . "câștigătorii.";
             }
             ?>
         </p>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <img id="img3" src="<?php echo _SITE_CSS . "img/editia_2016.jpg"; ?>" style="max-width: 440px;max-height: 230px;margin: auto;">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-top:30px;">
+        <img id="img3" src="<?php echo _SITE_CSS . "img/editia_2017.jpg"; ?>" style="max-width: 440px;max-height: 230px;margin: auto;">
     </div>
     <div class="col-lg-1"></div>
-
+    
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-top:10px;">
+        <img id="img2" src="<?php echo _SITE_CSS . "img/editia_2016.jpg"; ?>" style="max-width: 440px;max-height: 230px;margin: auto;">
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="text-align: left;margin: 10px;">
+        <h2>
+            <?php echo $limba == "en" ? "I-st edition" : "Editia  I"; ?>
+        </h2>
+        <p style="margin-top: 10px; font-size: 20px">
+            <?php
+            if ($limba == "en") {
+                echo "The first HackITall edition was a real success for the LSAC team. "
+                . "It has enjoyed a large number of registered teams: 30 in number, of which "
+                . "only 10 have been selected for participation. The main sponsor was "
+                . "Avira, who also came up with the theme of the hackathon, with "
+                . "competitors creating a community-based application. So, for 24 "
+                . "hours, students tried to give everything they could to win the "
+                . "prize.";
+            } else {
+                echo "Prima ediție de HackITalll a fost un adevărat succes pentru 
+                    echipa LSAC. Aceasta s-a bucurat de un număr mare de echipe 
+                    înscrise: 30 la număr, dintre care doar 10 au fost selecționate 
+                    pentru participare. Sponsorul principal a fost firma Avira, care 
+                    a propus și tema hackathon-ului, concurenții având de creat o 
+                    aplicație în folosul comunității. Așadar, timp de 24 de ore, 
+                    studenții au încercat să dea tot ce au mai bun pentru a câștiga 
+                    premiul I.";
+            }
+            ?>
+        </p>
+    </div>
+    <div class="col-lg-1"></div>
+    
+    
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:150px;"></div>
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin: 50px;text-align: center;font-size: 38px;color: white;">

@@ -167,4 +167,65 @@ $(document).ready(function () {
         var id = $(e.relatedTarget).data('id');
         document.getElementById("continut_evenimente").innerHTML = participanti[id]["evenimente"];
     });
+    console.log(participanti);
+    function convertToCSV(object) {
+        var str = 'Echipa,'+
+        'Nume capitan,Telefon  capitan,Email  capitan,'+
+        'Nume membru2,Telefon  membru2,Email  membru2,'+
+        'Nume  membru3,Telefon  membru3,Email  membru3,'+
+        'Comentariu,Link CV,Limbaje,Evenimente,Data inscriere\r\n';
+        for (var i = 0; i < object.length; i++) {
+            str += object[i].echipa.replace(/[,;]/g , " ") + ",";
+            str += object[i].nume1.replace(/[,;]/g , " ") + " ";
+            str += object[i].prenume1.replace(/[,;]/g , " ") + ",";
+            str += object[i].telefon1.replace(/[,;]/g , " ") + ",";
+            str += object[i].email1.replace(/[,;]/g , " ") + ",";
+            str += object[i].nume2.replace(/[,;]/g , " ") + " ";
+            str += object[i].prenume2.replace(/[,;]/g , " ") + ",";
+            str += object[i].telefon2.replace(/[,;]/g , " ") + ",";
+            str += object[i].email2.replace(/[,;]/g , " ") + ",";
+            str += object[i].nume3.replace(/[,;]/g , " ") + " ";
+            str += object[i].prenume3.replace(/[,;]/g , " ") + ",";
+            str += object[i].telefon3.replace(/[,;]/g , " ") + ",";
+            str += object[i].email3.replace(/[,;]/g , " ") + ",";
+            str += typeof object[i]["comentariu"] === 'undefined'? ",":object[i].comentariu.replace(/[,;]/g , " ") + ",";
+            str += typeof object[i]["link_cv"] === 'undefined'? ",":object[i].link_cv.replace(/[,;]/g , " ") + ",";
+            str += typeof object[i]["limbaje"] === 'undefined'? ",":object[i].limbaje.replace(/[,;]/g , " ") + ",";
+            str += typeof object[i]["evenimente"] === 'undefined'? ",":object[i].evenimente.replace(/[,;]/g , " ") + ",";
+            str += typeof object[i]["data_inscriere"] === 'undefined'? "\r\n":object[i].data_inscriere.replace(/[,;]/g , " ") + "\r\n";
+        }
+        return str;
+    }
+    
+    function exportCSVFile(items, fileTitle) {
+
+        var csv = convertToCSV(items);
+
+        var exportedFilenmae = fileTitle + '.csv' || 'export.csv';
+
+        var blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
+        if (navigator.msSaveBlob) { // IE 10+
+            navigator.msSaveBlob(blob, exportedFilenmae);
+        } else {
+            var link = document.createElement("a");
+            if (link.download !== undefined) { // feature detection
+                // Browsers that support HTML5 download attribute
+                var url = URL.createObjectURL(blob);
+                link.setAttribute("href", url);
+                link.setAttribute("download", exportedFilenmae);
+                link.style.visibility = 'hidden';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        }
+    }
+
+    
+    $("#participanti_table_length").after(
+            '<button id="download_csv" type="submit" style="cursor: pointer;">Download</button>');
+    $("#download_csv").on("click", function () {
+        var fileTitle = 'HackItAll participanti';
+        exportCSVFile(participanti, fileTitle);
+    });
 });

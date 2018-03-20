@@ -8,8 +8,8 @@
 defined("autorizare") or die("Nu aveti autorizare");
 ?>
 
-<header style="position: relative; top: -24px;margin-bottom: -44px;z-index: 4">
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background: #00b4e5;margin-bottom: 20px;">
+<header style="position: relative;margin-bottom: -44px;z-index: 20;">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background: #00b4e5;margin-bottom: 20px;min-height: 60px;">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

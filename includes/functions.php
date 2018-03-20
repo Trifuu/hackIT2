@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 /*
  * Creat de scriptul facut de Marius Trifu
  * La data de 04-09-2017 si ora 21:38:16
@@ -84,6 +85,12 @@ function log_user_login() {
     fclose($file);
 }
 
+function random_password( $length = 8 ) {
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    $password = substr( str_shuffle( $chars ), 0, $length );
+    return $password;
+}
+
 function log_click_buton_problema() {
 
     $user = get_logged_in_user();
@@ -92,6 +99,7 @@ function log_click_buton_problema() {
             "User: " . $user["nume"] . " " . $user["prenume"] . " " . $user["email"] . " " . $user["categorie"] . "\n");
     fclose($file);
 }
+
 
 function create_excel() {
     require_once _ROOT_INCLUDES . "Class/PHPExcel.php";

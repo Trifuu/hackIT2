@@ -52,7 +52,7 @@ defined("autorizare") or die("Nu aveti autorizare");
                         <form action="<?php getUrl("users", "post_edit_password", true); ?>" method="post" id="edit_password">
                                 <input type="hidden" value="<?php echo isset($_GET["id"]) ? htmlspecialchars($_GET["id"], ENT_QUOTES) : htmlspecialchars($user["id"], ENT_QUOTES); ?>" id="id" name="id">
                                 <div class="form-group">
-                                        <label for="parola"><i class="fa fa-lock"></i> Introdu o parola nouaă</label>
+                                        <label for="parola"><i class="fa fa-lock"></i> Introdu o parola nouă</label>
                                         <input type="password" class="form-control input-lg" id="parola" name="parola" placeholder="Parola">
                                 </div>
                                 <div class="form-group">

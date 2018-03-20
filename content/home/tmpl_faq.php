@@ -27,17 +27,17 @@ defined("autorizare") or die("Nu aveti autorizare");
         ?>
     </p>
     <?php for ($i = 0; $i < count($mesaj); $i += 2) { ?>
-    <div class="another-for-card-faq col-xs-12 col-sm-6 col-md-6 col-lg-4">
-    <div class="card-faq ">
+    <div class="another-for-card-faq col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-bottom: 65px;">
+        <div class="card-faq ">
 
-        <p class="accordion">
-            <?php echo (($i + 2) / 2) . ". " . $mesaj[$i]; ?>
-        </p>
-        <div class="panel">
-            <?php echo $mesaj[$i + 1]; ?>
+            <p class="accordion">
+                <?php echo (($i + 2) / 2) . ". " . $mesaj[$i]; ?>
+            </p>
+            <div class="panel">
+                <?php echo $mesaj[$i + 1]; ?>
+            </div>
         </div>
-        </div>
-        </div>
+    </div>
     <?php } ?>
 </div>
 

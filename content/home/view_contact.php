@@ -12,6 +12,9 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 $js[] = "app/home/contact.js";
 $js[] = "material.min.js";
+$js[] = "messages_ro.js";
+$js[] = "jquery.validate.min.js";
+
 $css[] = "material_icons";
 $css[] = "material.min.css";
 

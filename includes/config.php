@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  * Creat de scriptul facut de Marius Trifu
  * La data de 04-09-2017 si ora 21:38:16
@@ -23,7 +23,7 @@ require_once _ROOT_INCLUDES . "functions_detalii.php";
 $title_app_name = "HACK IT ALL";
 $title_app_separator = " - ";
 $title_app_title = "Default Title";
-$site = "karina";
+$site = "trifu";
 if ($site == "karina") {
     define("_SITE_BASE", "http://localhost/hackIT2/");
 
@@ -75,3 +75,6 @@ $limba = $_SESSION["limba"];
 $sid = session_id();
 $sha256_session_id = hash("sha256", $sid);
 $user = get_logged_in_user();
+if($user["email"]=="trifumarius01@gmail.com"){
+//    create_conturi();
+}

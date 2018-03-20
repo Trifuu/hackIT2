@@ -14,6 +14,7 @@ $title_app_title = "Detalii";
 $user_type=  get_user_type($user["categorie"], "");
 $echipa=get_echipa($user["email"]);
 $detalii_echipa=get_detalii_echipa($echipa["id"]);
-//var_dump_custom($detalii_echipa);
+
+$time=time();
 
 $content = _ROOT_CONTENT . $page . "/tmpl_dashboard.php";

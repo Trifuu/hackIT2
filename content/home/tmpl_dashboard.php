@@ -20,7 +20,6 @@ defined("autorizare") or die("Nu aveti autorizare");
         <path fill="#99C9EC" d="M120.9,218c-37.5,22.5-50.1,24.4-53.1,52.4l13.2,6.7l175.8,38.6L360,110.8c0,0-14.2-17.3-36.2-10.3"/>
         <path class="svg-button" fill="#FFF2E9" d="M325.1,434.3L105.3,561.2c-20.4,11.8-36.9,4.8-36.9-15.6V291.1c0-20.4,16.5-46.4,36.9-58.2L325.1,106
             c20.4-11.8,36.9-4.8,36.9,15.6v254.5C362,396.5,345.4,422.5,325.1,434.3z"/>
->>>>>>> 76c838e40be4dc1255db4d1d09d6158d281868f6
     </g>
     
     <g id="logo_x5F_hack_1_" class="svg-button-text">
@@ -202,21 +201,21 @@ defined("autorizare") or die("Nu aveti autorizare");
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="componente_mijloc">
         <div style="padding-top: 90px;font-size: 25px;" class="timer">
-            <?php echo $limba=="en"? "Competition starts in:":"Competiția începe în:";?>
+            <?php echo $limba=="en"? "Registration ends in:":"Înregistrarea se termină în:";//echo $limba=="en"? "Competition starts in:":"Competiția începe în:";?>
         </div>
         <div id="timer" class="timer" style="padding-top: 30px;">
             <span id="days"></span><span>:</span><span id="hours"></span><span>:</span><span id="minut"></span><span>:</span><span id="second"></span>
         </div>
         <div style="padding:3em">
             <svg version="1.1" baseProfile="basic" id="Layer_1"
-     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 193.6"
-     xml:space="preserve"><g>
-      <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
-<rect id = "register" x="34.4" y="34.7" fill="#DB1F27" width="387.3" height="124.2"/>
-<text id = "register-text" transform="matrix(0.866 0 0 1 73.2569 119.8373)" fill="#F5E7E9" font-size="78.7799">REGISTER</text>
-</rect>
-</a>
-</svg>
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 193.6"
+                xml:space="preserve"><g>
+            </svg>
+            <a target="_blank" href="<?php getUrl("formular","dashboard",true); ?>">
+        <g id="g2735_1_" transform="matrix(0.8660254,0.5,0,1.1547005,-267.34777,-601.58986)">
+            <polygon id="rect2064_1_" class="register" fill="#DB1F27" points="969.4,121.4 1058.9,121.4 1058.9,149.7 969.4,149.7          "/>
+            <text class="register-text" transform="matrix(0.866 0 0 0.866 980.722 140.2265)" fill="#F5E7E9" font-size="15.1888">JOIN NOW</text>
+        </g></a>
         </div>
     </div>
 
@@ -285,7 +284,9 @@ defined("autorizare") or die("Nu aveti autorizare");
 
 
 <div class="hide-on-mobile">
-<svg>
+<svg version="1.1" baseProfile="basic" id="Layer_1"
+     x="0px" y="0px" viewBox="0 0 800 1000"
+     xml:space="preserve">
 <g id="layer6_1_">
     <path id="path2567_1_" fill="#99C9EC" d="M200.8,8.9L200.8,8.9c-2.6,0-5.3,0.6-7.3,1.8c0,0,0,0,0,0l-5,2.9l-1.5,0.9l-40.5,23.4
         L134,45c-0.1,0.1-0.2,0.2-0.4,0.2l-2.7-1.4v5.3l0,0c0,1.6,1,3.1,3,4.3l9,5.2l28.2,16.3l-43.3,25l-8.7,5c-0.7,0.4-1.2,0.8-1.7,1.3

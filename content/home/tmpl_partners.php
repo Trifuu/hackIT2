@@ -9,52 +9,132 @@
 defined("autorizare") or die("Nu aveti autorizare");
 ?>
 <div class="container-fluid row" style="text-align: center;">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:150px;padding-bottom: 50px">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:100px">
         <h1>
-            SPONSORS
+           <?php echo $limba == "en" ? "Main Sponsor" : "Sponsorul principal"; ?>
         </h1>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-top: 150px">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="margin-top: 110px">
         <img src="<?php echo _SITE_CSS . "img/New/avira.png"; ?>" style="max-width: 350px;text-align: center;">
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8" style="margin-top: 100px">
 
-     <div id="wrapper">
-    <div class="scrollbar" id="style-6">
-       <h2 style="text-align: center; margin: 10px;">
-                We are UiPath
-            </h2>
-            <h3>
-                Leaders in robotic process automation
-            </h3>
-            <p>Leaders in Robotic Process Automation
-We design and deliver the most advanced automation platform. Businesses of all sizes, BPO providers and shared service organizations around the world use our software to provide exceptional benefits in operational quality, speed and cost. 
-Leading industry independent analyst firms rank UiPath as a leader and star performer in RPA.
-            </p>
-            <h3>
-                Our mission
-            </h3>
-            <p>We believe human work should be creative and inspiring
-Our mission is to eradicate repetitive tasks through intelligent use of software automation. 
-We help businesses automate more efficiently and develop an agile robotic workforce by providing state-of-the-art technology.
-            </p>
-            <h3>
-                What we do
-            </h3>
-            <p>Designing intelligent solutions for today’s (and tomorrow’s) enterprises
- 
-Created to be accurate, open and extensible, our platform delivers the fastest and most reliable RPA that enhances business performance at unlimited scale; if it is easy to use, highly responsive, instantly scalable and allows you to build your own intellectual property on top, you know it’s UiPath.
- 
-Because technology evolves every day, and leading-edge technology even more so, UiPath continuously integrates cognitive, AI and predictive analytics tools to help companies automate more processes and stay future-proofed.
- 
-Staying on top is harder than getting there. This is why UiPath is committed to two product releases per year. We have the largest development team of any RPA vendor and we hire the best engineers and researchers in the fields of natural language processing, machine—and deep—learning.
-            </p>
+        <div id="wrapper">
+           <div class="scrollbar" id="style-6">
+              <h2 style="text-align: center; margin: 10px;">
+                  <?php echo $limba == "en" ? "Description" : "Descriere"; ?>
+              </h2>
+                   <p>
+                       <?php echo $limba == "en" ? ""
+                       . "Avira is a multinational company headquartered in Tettnang, Germany 
+                       and additional offices in Bucharest, Munich, Beijing and Silicon 
+                       Valley. Avira protects more than 100 million users in the connected 
+                       world, enabling everyone to manage, secure and improve their digital 
+                       lives. The suite of security products includes applications for 
+                       Windows, Android, Mac and iOS. Avira also has a premium product 
+                       portfolio for customers who want to enjoy advanced technical features 
+                       and technical support. Avira Soft has been in Romania since 2004 and 
+                       incorporates several departments, from malware and customer service 
+                       analysis to product development and online marketing." : 
+
+                       "Avira este o companie multinaţională cu sediul principal în Tettnang, 
+                       Germania şi birouri in Bucureşti, Munich, Beijing şi Silicon Valley. 
+                       Cu o tradiție de peste 30 de ani, Avira oferă solutii de securitate 
+                       online pentru mai mult de 100 de milioane de utilizatori. Suita de 
+                       produse de securitate include programe gratuite pentru utilizatorii 
+                       de Windows, Mac, iOS sau Android. Avira are de asemenea un portofoliu 
+                       de produse premium pentru clienţii care doresc să se bucure de 
+                       caracteristici tehnice avansate şi suport tehnic. Avira Soft există 
+                       pe piața din România din 2004 și încorporează mai multe departamente, 
+                       de la analiză malware și customer service, la product development și 
+                       online marketing."; ?>
+
+                   </p>
+           </div>
+       </div>
     </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 style="color: white;margin-bottom: 100px;margin-top: 100px;">
+            <?php echo $limba == "en" ? "Media Partners" : "Parteneri Media"; ?>
+        </h2>
     </div>
-</div>
+    
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/comunicate.jpg"; ?>" style="width: 90%">
+    </div>
+    
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/romania_pozitiva.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/logo_studentii.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/restart.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/unsr.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/girls_code.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/money-buzz.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/iqool.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/curierul_national.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/it_prenori.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/softlead.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/asmi.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/ccoc.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/incomod.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/eestec.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/complex_regie.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/cs-ura.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/codette.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/educativa.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/lse.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/mobile_news.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/ccs.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/iqads.jpg"; ?>" style="width: 90%">
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="margin-bottom:80px;">
+        <img src="<?php echo _SITE_CSS . "img/logo/smark.jpg"; ?>" style="width: 90%">
+    </div>
 </div>
 
-<div style="margin-top:120px;">
+
 <svg version="1.1" baseProfile="basic" id="Layer_1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 728.6 407.9"
      xml:space="preserve">

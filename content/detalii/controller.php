@@ -16,6 +16,9 @@ switch ($view):
     case "admin":
         require_once _ROOT_CONTENT . $page . "/view_admin.php";
         break;
+    case "upload":
+        require_once _ROOT_CONTENT . $page . "/upload.php";
+        break;
     default:
         header("HTTP/1.0 404 Not Found");
         $title_app_title = "404 - Pagina Inexistenta";

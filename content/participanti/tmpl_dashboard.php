@@ -7,7 +7,7 @@
 
 defined("autorizare") or die("Nu aveti autorizare");
 ?>
-<div class="container-fluid standard-container container-page" style="top:20px;">
+<div class="container-fluid standard-container container-page" style="top:44px;">
     <div class="row">
         <div class="col-lg-12 input_change">
             <table id="participanti_table" class="table table-striped">
