@@ -212,6 +212,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4392f1', end
 
 font-family: Roboto-Light;
 color: #fff2e9;
+
 /*color: black;
 */
 
@@ -375,4 +376,11 @@ a:hover, a:active, a{
 .fill-orange:hover{
     fill: #ffb699;
     cursor: pointer;
+}
+.litere_cronometru{
+    font-size: 300px;
+}
+.numere_cronometru{
+    font-size: 300px;
+    text-align: center;
 }

@@ -5,15 +5,15 @@
 
 $(document).ready(function () {
     // Set the date we're counting down to
-    var countDownDate = new Date("Mar 25, 2018 10:45:00").getTime();
+    var countDownDate = new Date("Mar 25, 2018 11:45:00").getTime();
     
-
+    
     // Update the count down every 1 second
     var x = setInterval(function () {
 
         // Get todays date and time
         var now = new Date().getTime();
-
+        
         // Find the distance between now an the count down date
         var distance = countDownDate - now;
 
@@ -44,11 +44,11 @@ $(document).ready(function () {
         }
         
         // Output the result in an element with id="demo"
-        $("#days").text(days);
-        $("#hours").text(hours);
-        $("#minut").text(minutes);
-        $("#second").text(seconds);
-
+        if(days==0){
+            $("#hours").text(hours);
+            $("#minut").text(minutes);
+            $("#second").text(seconds);
+        }
         // If the count down is over, write some text 
         if (distance < 0) {
             clearInterval(x);

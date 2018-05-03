@@ -9,9 +9,10 @@ defined("autorizare") or die("Nu aveti autorizare");
 ?>
 
 <!DOCTYPE html>
-<html lang="ro-RO">
+<html lang="ro-RO" style="height: 100%;">
     <head>
         <title><?php echo $title_app_title . $title_app_separator . $title_app_name; ?></title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,7 +31,7 @@ defined("autorizare") or die("Nu aveti autorizare");
         <link rel="stylesheet" href="<?php echo _SITE_CSS ?>styles.css">
 
     </head>
-    <body>
+    <body style="height: 100%;">
         <?php if($page=="home" || $page=="formular")
         {
         ?>

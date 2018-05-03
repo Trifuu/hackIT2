@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/var/www/html/hackathon_lsac/content/detalii/tmpl_admin.php</file>
-            <file>file:/var/www/html/hackathon_lsac/content/detalii/tmpl_dashboard.php</file>
-            <file>file:/var/www/html/hackathon_lsac/includes/functions_participanti.php</file>
-            <file>file:/var/www/html/hackathon_lsac/assets/js/app/participanti/dashboard.js</file>
-            <file>file:/var/www/html/hackathon_lsac/assets/js/app/detalii/admin.js</file>
-            <file>file:/var/www/html/hackathon_lsac/assets/js/app/detalii/dashboard.js</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

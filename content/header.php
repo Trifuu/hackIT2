@@ -18,6 +18,9 @@ defined("autorizare") or die("Nu aveti autorizare");
                 <li class="nav-item <?php echo ($page == "home" && $view == "dashboard") ? "active" : "" ?>">
                     <a class="nav-link" href="<?php echo _SITE_BASE; ?>">Home <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item <?php echo $view == "cronometru" ? "active" : "" ?>">
+                    <a class="nav-link" href="<?php getUrl("home", "cronometru", true); ?>">Cronometru</a>
+                </li>
                 <?php
                 if ($user != null) {
                     if (get_user_type($user["categorie"], "users") < 2) {
